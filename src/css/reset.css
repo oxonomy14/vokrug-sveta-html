@@ -1,16 +1,14 @@
 :root {
-  :root {
-    --f0e2d0: #f0e2d0;
-    --edc58c: #edc58c;
-    --f79d1d: #f79d1d;
-    --b09268: #b09268;
-    --a0998f: #a0998f;
-    --6e6962: #6e6962;
-    --light-black: #333;
-    --black: #191919;
-    --white: #fff;
-    --font-family: 'Mulish', sans-serif;
-  }
+  --f0e2d0: #f0e2d0;
+  --edc58c: #edc58c;
+  --orange: #f79d1d;
+  --b09268: #b09268;
+  --a0998f: #a0998f;
+  --grey: #6e6962;
+  --light-black: #333;
+  --black: #191919;
+  --white: #fff;
+  --font-family: 'Manrope', sans-serif;
 }
 
 *,

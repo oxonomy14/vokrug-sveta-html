@@ -1,11 +1,9 @@
 html {
-  font-family: var(--font-family);
   scroll-behavior: smooth;
 }
 
 .container {
   margin: 0 auto;
-  padding: 0px 16px;
 }
 
 .visually-hidden {
@@ -40,13 +38,11 @@ main {
 @media only screen and (min-width: 768px) {
   .container {
     width: 768px;
-    padding: 48px 32px;
   }
 }
 
 @media only screen and (min-width: 1440px) {
   .container {
     width: 1440px;
-    padding: 0px 62px;
   }
 }
