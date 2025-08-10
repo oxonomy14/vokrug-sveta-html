@@ -1,0 +1,8 @@
+.wrapHero {
+  padding-bottom: 48px;
+}
+
+.slider {
+  height: 688px;
+  background-color: var(--light-orange);
+}
