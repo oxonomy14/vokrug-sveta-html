@@ -84,7 +84,7 @@
 
   /* line-height: 32px; */
   line-height: 1.3913;
-  text-transform: capitalize;
+  text-transform: none;
   color: var(--black);
   max-width: 420px;
   margin-bottom: 12px;
