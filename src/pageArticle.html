@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/x-icon" href="/favicon-256.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Дневник странника – это блог о путешествиях. На сайте представлено описание культуры разных стран: вы узнаете, где отдохнуть летом, прочтете отзывы туристов об отелях, а также можете забронировать горящий тур."
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Mulish:wght@200..1000&family=Oswald:wght@200..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Куда съездить отдохнуть: блог о путешествиях</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <load src="./partials/header.html" />
+      </header>
+
+      <main>
+        <section>
+          <load src="./pageArticle/heroTitle.html" />
+        </section>
+        <section>
+          <div class="container wrapPageArticle">
+            <div class="pageBox">
+              <div class="pageContent">
+                <load src="./pageArticle/article.html" />
+              </div>
+              <div class="postPopularBoxRight">
+                <div class="latestPost">
+                  <h2 class="latestPostTitle">последние публикации</h2>
+                  <ul class="latestPostList">
+                    <li class="latestPostItem">
+                      <img
+                        src="https://res.cloudinary.com/daboofr8e/image/upload/v1755270280/UdThailand-1_xcjnlp.webp"
+                        alt=""
+                      />
+                      <div>
+                        <h3 class="latestPostItemTitle">
+                          Удивительный Таиланд
+                        </h3>
+                        <p class="latestPostItemDate">01.01.2023</p>
+                      </div>
+                    </li>
+                    <li class="latestPostItem">
+                      <img
+                        src="https://res.cloudinary.com/daboofr8e/image/upload/v1755270280/UdThailand-1_xcjnlp.webp"
+                        alt=""
+                      />
+                      <div>
+                        <h3 class="latestPostItemTitle">
+                          Китай. Куда можно поехать и что посмотреть?
+                        </h3>
+                        <p class="latestPostItemDate">23.01.2023</p>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <div class="ad"><img src="../img/BANNER.jpg" alt="" /></div>
+                <div class="tags">
+                  <h2 class="tagsTitle">Tags</h2>
+                  <ul class="tagsList">
+                    <li class="tagsItem">Китай</li>
+                    <li class="tagsItem">Таиланд</li>
+                    <li class="tagsItem">острова Бали</li>
+                    <li class="tagsItem">Азия</li>
+                    <li class="tagsItem">Кипр</li>
+                  </ul>
+                </div>
+                <div class="aboutAuthor">
+                  <h2 class="aboutAuthorTitle">Георгий Горбенко</h2>
+                  <p class="aboutAuthorDesc">краткое описание об авторе</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section></section>
+      </main>
+
+      <footer>
+        <load src="./partials/footer.html" />
+      </footer>
+    </div>
+    <!-- <script type="module" src="./main.js"></script> -->
+  </body>
+</html>

@@ -9,5 +9,10 @@
 @import url('./about.css');
 @import url('./category-post.css');
 @import url('./about-blog.css');
-
+@import url('./post-popular.css');
+@import url('./bottom.css');
 @import url('./footer.css');
+
+@import url('./heroTitle.css');
+@import url('./pageArticle.css');
+@import url('./article.css');
