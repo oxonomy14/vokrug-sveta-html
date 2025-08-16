@@ -1,0 +1,25 @@
+.wrapBottom {
+  padding: 54px 62px 109px 62px;
+}
+
+.bottomDesc {
+  font-family: 'Heebo', sans-serif;
+  font-weight: 500;
+  font-size: 23px;
+
+  /* line-height: 32px; */
+  line-height: 1.3913;
+  text-transform: none;
+  text-align: center;
+  color: #191919;
+  margin-bottom: 55px;
+}
+
+.bottomAdWidjetDesktop {
+  display: flex;
+  justify-content: center;
+}
+
+.bottomAdWidjetMobile {
+  display: none;
+}

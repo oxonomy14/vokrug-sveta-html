@@ -1,0 +1,73 @@
+.articleMainImg {
+  width: 728px;
+  height: 416px;
+  margin-bottom: 16px;
+}
+
+.articleInfo {
+  margin-bottom: 29px;
+}
+
+.articleInfoCategory {
+  margin-bottom: 14px;
+}
+
+.articleCategory {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 13px;
+
+  /* line-height: 24px; */
+  line-height: 1.84615;
+  color: var(--orange);
+  margin-right: 30px;
+  display: inline-block;
+  box-shadow: inset 0 -2px 0 0 var(--light-orange);
+}
+
+.articleAuthor {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 13px;
+
+  /* line-height: 24px; */
+  line-height: 1.84615;
+  color: var(--grey);
+}
+
+.articleTitle {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 33px;
+
+  /* line-height: 48px; */
+  line-height: 1.45455;
+  color: #191919;
+  margin-bottom: 2px;
+}
+
+.postContent {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+
+  /* line-height: 28px; */
+  line-height: 1.75;
+  color: var(--grey);
+}
+
+.postContent p {
+  margin: 31px 0px;
+}
+
+.postContent h3 {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 23px;
+
+  /* line-height: 32px; */
+  line-height: 1.3913;
+  text-transform: none;
+  color: #191919;
+  margin-bottom: 31px;
+}

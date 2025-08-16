@@ -1,0 +1,13 @@
+.wrapPageArticle {
+  padding: 48px 174px 39px 174px;
+}
+
+.pageBox {
+  display: flex;
+  gap: 56px;
+  justify-content: space-between;
+}
+
+.pageContent {
+  max-width: 728px;
+}

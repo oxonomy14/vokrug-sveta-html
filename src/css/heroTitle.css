@@ -1,0 +1,19 @@
+.wrapperArticleTitle {
+  width: 100%;
+  background-color: #ccc;
+}
+
+.wrapPageArticleTitle {
+  padding: 66px 0px 94px 0px;
+}
+
+.pageArticleHeroTitle {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 33px;
+
+  /* line-height: 48px; */
+  line-height: 1.45455;
+  text-align: center;
+  color: #191919;
+}
